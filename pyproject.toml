@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "eog-mock"
+version = "0.1.0"
+description = ""
+authors = ["WolfEYc <wolfeycode@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "eog_mock", from = "." }
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+async-db-polars = {version = "^0.1.1", extras = ["pg"]}
+ipykernel = "^6.29.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
