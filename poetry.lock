@@ -31,13 +31,13 @@ test = ["astroid (>=1,<2)", "astroid (>=2,<4)", "pytest"]
 
 [[package]]
 name = "async-db-polars"
-version = "0.1.1"
+version = "0.1.6"
 description = "High level DB abstraction that uses polars to represent tables in memory."
 optional = false
 python-versions = ">=3.12,<4.0"
 files = [
-    {file = "async_db_polars-0.1.1-py3-none-any.whl", hash = "sha256:c9946e7c9832df50f520c43663e995e87a689886157a1d7aa39ba235a6e45929"},
-    {file = "async_db_polars-0.1.1.tar.gz", hash = "sha256:cdb220cdd24fd5079c3152f8e109cd20ad89616f31914494112a34fecae73eaa"},
+    {file = "async_db_polars-0.1.6-py3-none-any.whl", hash = "sha256:c3bff513747be80a54f1f5caacf5c49dfbf38dc06aeba6840ea69db27dcb2c68"},
+    {file = "async_db_polars-0.1.6.tar.gz", hash = "sha256:39b0b20f390374cf80e20aa58bbc3ffc44fbc9239f44e01a4e502086df1606fc"},
 ]
 
 [package.dependencies]
@@ -284,13 +284,13 @@ test = ["flaky", "ipyparallel", "pre-commit", "pytest (>=7.0)", "pytest-asyncio 
 
 [[package]]
 name = "ipython"
-version = "8.22.1"
+version = "8.22.2"
 description = "IPython: Productive Interactive Computing"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "ipython-8.22.1-py3-none-any.whl", hash = "sha256:869335e8cded62ffb6fac8928e5287a05433d6462e3ebaac25f4216474dd6bc4"},
-    {file = "ipython-8.22.1.tar.gz", hash = "sha256:39c6f9efc079fb19bfb0f17eee903978fe9a290b1b82d68196c641cecb76ea22"},
+    {file = "ipython-8.22.2-py3-none-any.whl", hash = "sha256:3c86f284c8f3d8f2b6c662f885c4889a91df7cd52056fd02b7d8d6195d7f56e9"},
+    {file = "ipython-8.22.2.tar.gz", hash = "sha256:2dcaad9049f9056f1fef63514f176c7d41f930daa78d05b82a176202818f2c14"},
 ]
 
 [package.dependencies]
@@ -428,6 +428,17 @@ files = [
 [package.extras]
 qa = ["flake8 (==3.8.3)", "mypy (==0.782)"]
 testing = ["docopt", "pytest (<6.0.0)"]
+
+[[package]]
+name = "perlin-noise"
+version = "1.12"
+description = "Python implementation for Perlin Noise with unlimited coordinates space"
+optional = false
+python-versions = "*"
+files = [
+    {file = "perlin_noise-1.12-py3-none-any.whl", hash = "sha256:7c65b6671ce06d93cf467e2b59041878e3d5dc40208a8c089de581d3f9d47701"},
+    {file = "perlin_noise-1.12.tar.gz", hash = "sha256:01ec42d9f2bc338ae52edbb069b375fb83fec51784e17479366ced1f7063957c"},
+]
 
 [[package]]
 name = "pexpect"
@@ -809,4 +820,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "3c86e0f1af0069ec0f1f9882a3ec9c63a4d0ae9cf5d54ff32bb3bbc7c42afab8"
+content-hash = "0c9d6012ab7850b46f09493edcbd5fdd1200a2a7ecad3eee0526a9ae75620e51"

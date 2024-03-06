@@ -10,8 +10,9 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.12"
-async-db-polars = {version = "^0.1.1", extras = ["pg"]}
 ipykernel = "^6.29.3"
+async-db-polars = {version = "^0.1.2", extras = ["pg"]}
+perlin-noise = "^1.12"
 
 
 [build-system]
